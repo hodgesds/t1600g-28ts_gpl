@@ -10,12 +10,12 @@ Build Instructions
 
 3. Building steps:
  1) put t1600g-28ts_gpl in directory /project/trunk
- 2) export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/project/trunk/t1600g-28ts_gpl/tplink/buildroot/host/usr/lib" 
+ 2) export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/project/trunk/t1600g-28ts_gpl/tplink/buildroot/host/usr/lib"
  3) cd /project/trunk_t1600g-28ts_gpl/tplink/buildroot
  3) make O=./build/t1600g-28ts tplink-t1600g-28ts_defconfig
  4) make O=./build/t1600g-28ts
  After step4 completed, The linux kernel image, rootfs filesystem will be found in directory "t1600g-28ts_gpl/tplink/buildroot/build/t1600g-28ts/image".
- 
+
  5) cd /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10
  6) export CROSS_COMPILE=/project/trunk/t1600g-28ts_gpl/tplink/buildroot/host/usr/bin/arm-linux-
  7) export ARCH=arm
@@ -25,4 +25,8 @@ Build Instructions
  After step11 completed, uboot will be found in directory "t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10".
 
 
-
+Steps for compiling on gentoo:
+1) Install 32 bit [zlib](https://wiki.gentoo.org/wiki/Multilib/gx86-multilib).
+2) Apply
+[patch](http://www.linuxfromscratch.org/lfs/view/development/chapter06/m4.html)
+for m4 (will add this as part of make, but I'm lazy)
