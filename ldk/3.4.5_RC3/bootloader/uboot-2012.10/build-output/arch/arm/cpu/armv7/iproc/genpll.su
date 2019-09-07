@@ -1,0 +1,3 @@
+genpll.c:57:10:iproc_config_genpll	16	static
+genpll.c:116:10:iproc_get_axi_clk	8	static
+genpll.c:255:10:iproc_get_uart_clk	8	static

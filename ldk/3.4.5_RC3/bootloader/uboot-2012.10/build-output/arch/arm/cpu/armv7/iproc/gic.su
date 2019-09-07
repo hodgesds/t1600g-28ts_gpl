@@ -1,0 +1,12 @@
+gic.c:27:13:default_isr	0	static
+gic.c:34:14:get_cpuid	0	static
+gic.c:45:6:gic_enable_distributor	0	static
+gic.c:52:6:gic_disable_distributor	0	static
+gic.c:60:6:gic_enable_interrupt	0	static
+gic.c:71:6:gic_disable_interrupt	0	static
+gic.c:91:6:gic_set_sgi	0	static
+gic.c:121:6:gic_config_interrupt	16	static
+gic.c:160:6:gic_init	16	static
+gic.c:208:6:do_irq	24	static
+gic.c:237:6:irq_install_handler	16	static
+gic.c:253:5:arch_interrupt_init	8	static

@@ -1,0 +1,10 @@
+flashUtil.c:106:9:lockFlash	8	static
+flashUtil.c:128:8:unlockFlash	8	static
+flashUtil.c:134:8:l_writeFlash	40	static
+flashUtil.c:193:8:l_readFlash	32	static
+flashUtil.c:253:8:l_writeFlash_noErase	40	static
+flashUtil.c:353:5:sysGetMtdpartsInfo	40	static
+flashUtil.c:424:5:sysGetFlAddr	48	static
+flashUtil.c:312:5:sysFixKernel	24	static
+flashUtil.c:473:5:sysSetActiveInfo	312	static
+flashUtil.c:513:5:sysSetActiveInfoWithOutFlash	312	static

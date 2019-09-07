@@ -1,0 +1,4 @@
+part.c:101:19:get_dev	0	static
+part.c:384:5:get_partition_info	0	static
+part.c:452:5:get_device	32	static
+part.c:477:5:get_device_and_partition	120	static

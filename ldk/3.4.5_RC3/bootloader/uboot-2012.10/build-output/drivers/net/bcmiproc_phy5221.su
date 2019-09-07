@@ -1,0 +1,9 @@
+bcmiproc_phy5221.c:59:1:phy5221_wr_reg	32	static
+bcmiproc_phy5221.c:85:1:phy5221_rd_reg	32	static
+bcmiproc_phy5221.c:112:1:phy5221_mod_reg	40	static
+bcmiproc_phy5221.c:153:1:phy5221_fe_reset	40	static
+bcmiproc_phy5221.c:199:1:phy5221_fe_init	32	static
+bcmiproc_phy5221.c:231:1:phy5221_init	40	static
+bcmiproc_phy5221.c:268:1:phy5221_link_get	40	static
+bcmiproc_phy5221.c:342:1:phy5221_enable_set	24	static
+bcmiproc_phy5221.c:465:1:phy5221_speed_get	48	static

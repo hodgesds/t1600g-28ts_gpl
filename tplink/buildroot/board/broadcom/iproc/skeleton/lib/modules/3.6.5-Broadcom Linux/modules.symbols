@@ -1,0 +1,7 @@
+# Aliases for symbols, used by symbol_request().
+alias symbol:crypto_aes_expand_key aes_generic
+alias symbol:crypto_aes_set_key aes_generic
+alias symbol:crypto_ft_tab aes_generic
+alias symbol:crypto_fl_tab aes_generic
+alias symbol:crypto_it_tab aes_generic
+alias symbol:crypto_il_tab aes_generic

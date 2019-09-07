@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/Project/Trunk/Src_Linux/tplink/buildroot/output/toolchain/gcc-4.7.2/configure --prefix=/Project/Trunk/Src_Linux/tplink/buildroot/host/usr --build=i686-pc-linux-gnu --host=i686-pc-linux-gnu --target=arm-buildroot-linux-uclibcgnueabi --enable-languages=c,c++ --with-sysroot=/Project/Trunk/Src_Linux/tplink/buildroot/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot --with-build-time-tools=/Project/Trunk/Src_Linux/tplink/buildroot/host/usr/arm-buildroot-linux-uclibcgnueabi/bin --disable-__cxa_atexit --enable-target-optspace --disable-libgomp --with-gnu-ld --disable-libssp --disable-multilib --enable-tls --enable-shared --with-gmp=/Project/Trunk/Src_Linux/tplink/buildroot/host/usr --with-mpfr=/Project/Trunk/Src_Linux/tplink/buildroot/host/usr --with-mpc=/Project/Trunk/Src_Linux/tplink/buildroot/host/usr --disable-nls --enable-threads --disable-decimal-float --with-float=soft --with-abi=aapcs-linux --with-arch=armv7-a --with-tune=cortex-a9 --with-pkgversion='Buildroot 2012.11-svn46893-dirty' --with-bugurl=http://bugs.buildroot.net/ --with-pkgversion='Broadcom Linux'";
+static const char thread_model[] = "posix";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "abi", "aapcs-linux" }, { "arch", "armv7-a" }, { "tune", "cortex-a9" }, { "float", "soft" }, { "tls", "gnu" } };

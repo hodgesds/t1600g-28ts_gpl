@@ -1,0 +1,10 @@
+ddr_init.c:211:10:iproc_get_ddr3_clock_mhz	8	static
+ddr_init.c:259:10:change_ddr_clock	28	static
+ddr_init.c:377:6:dump_phy_regs	0	static
+ddr_init.c:381:6:ddr_init_regs	0	static
+ddr_init.c:394:6:ddr_phy_ctl_regs_ovrd	0	static
+ddr_init.c:410:6:ddr_phy_wl_regs_ovrd	4	static
+ddr_init.c:433:5:ReWriteModeRegisters	0	static
+ddr_init.c:462:5:is_ddr_32bit	0	static
+ddr_init.c:495:6:ddr_init	32	static
+ddr_init.c:1764:6:ddr_init2	24	static

@@ -1,0 +1,16 @@
+spi_flash.c:26:12:spi_flash_read_write	32	static
+spi_flash.c:56:5:spi_flash_cmd_read	16	static
+spi_flash.c:51:5:spi_flash_cmd	24	static
+spi_flash.c:62:5:spi_flash_cmd_write	16	static
+spi_flash.c:125:5:spi_flash_read_common	32	static
+spi_flash.c:139:5:spi_flash_cmd_read_fast	32	static
+spi_flash.c:152:5:spi_flash_cmd_read_slow	32	static
+spi_flash.c:164:5:spi_flash_cmd_poll_bit	48	static
+spi_flash.c:201:5:spi_flash_cmd_wait_ready	0	static
+spi_flash.c:68:5:spi_flash_cmd_write_multi	56	static
+spi_flash.c:207:5:spi_flash_cmd_erase	40	static
+spi_flash.c:259:5:spi_flash_cmd_write_status	32	static
+spi_flash.c:352:19:spi_flash_probe	32	static
+spi_flash.c:421:6:spi_flash_free	8	static
+spi_flash.c:430:5:spi_flash_get_sector_size	0	static
+spi_flash.c:435:5:spi_flash_get_sector_num	0	static

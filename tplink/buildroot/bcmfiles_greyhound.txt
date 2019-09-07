@@ -1,0 +1,2 @@
+../ldk/3.5.5/kernel/linux-3.6.5
+../ldk/3.5.5/bootloader/uboot-2012.10

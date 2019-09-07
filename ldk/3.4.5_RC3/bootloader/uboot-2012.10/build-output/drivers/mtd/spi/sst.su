@@ -1,0 +1,3 @@
+sst.c:97:1:sst_byte_write	40	static
+sst.c:122:1:sst_write_wp	56	static
+sst.c:189:1:spi_flash_probe_sst	16	static

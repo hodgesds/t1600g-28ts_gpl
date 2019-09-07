@@ -1,0 +1,7 @@
+atmel.c:122:12:at45_wait_ready	40	static
+atmel.c:339:12:dataflash_erase_p2	48	static
+atmel.c:197:12:dataflash_write_p2	56	static
+atmel.c:398:12:dataflash_erase_at45	56	static
+atmel.c:263:12:dataflash_write_at45	64	static
+atmel.c:181:12:dataflash_read_fast_at45	48	static
+atmel.c:461:19:spi_flash_probe_atmel	40	static

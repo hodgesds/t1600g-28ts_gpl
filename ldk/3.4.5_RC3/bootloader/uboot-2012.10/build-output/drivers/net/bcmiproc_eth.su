@@ -1,0 +1,8 @@
+bcmiproc_eth.c:95:1:bcmiproc_eth_write_hwaddr	0	static
+bcmiproc_eth.c:81:1:bcmiproc_eth_rcv	0	static
+bcmiproc_eth.c:136:1:bcmiproc_eth_close	8	static
+bcmiproc_eth.c:161:1:bcmiproc_miiphy_write	0	static
+bcmiproc_eth.c:152:1:bcmiproc_miiphy_read	0	static
+bcmiproc_eth.c:56:1:bcmiproc_eth_send	8	static
+bcmiproc_eth.c:109:1:bcmiproc_eth_open	8	static
+bcmiproc_eth.c:170:1:bcmiproc_eth_register	16	static

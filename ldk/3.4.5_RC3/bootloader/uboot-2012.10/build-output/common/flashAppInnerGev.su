@@ -1,0 +1,17 @@
+flashAppInnerGev.c:132:7:getDftGevContent	288	static
+flashAppInnerGev.c:211:8:resetEnv	24	static
+flashAppInnerGev.c:245:11:_getGevItem	40	static
+flashAppInnerGev.c:292:11:_setGevItem	32	static
+flashAppInnerGev.c:337:11:_gevSetBack	32	static
+flashAppInnerGev.c:405:12:_freeEnvItems	16	static
+flashAppInnerGev.c:463:8:_initReadGev	56	static
+flashAppInnerGev.c:852:8:getEnvItem	16	static
+flashAppInnerGev.c:420:8:_checkEnvIsValid	264	static
+flashAppInnerGev.c:572:5:flashAppInnerGevInit	8	static
+flashAppInnerGev.c:611:8:setEnvItem	552	static
+flashAppInnerGev.c:805:8:copyEnvItem	272	static
+flashAppInnerGev.c:910:8:delEnvItem	544	static
+flashAppInnerGev.c:1024:8:updateGevItem	32	static
+flashAppInnerGev.c:1089:6:printEnvItems	16	static
+flashAppInnerGev.c:1128:8:sysGetBootFromFlash	24	static
+flashAppInnerGev.c:1167:8:sysSetBootToFlash	32	static

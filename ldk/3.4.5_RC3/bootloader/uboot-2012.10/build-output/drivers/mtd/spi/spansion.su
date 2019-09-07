@@ -1,0 +1,5 @@
+spansion.c:136:12:spi_flash_set_bank_register	48	static
+spansion.c:169:13:spi_flash_cmd_read_fast_tp	24	static
+spansion.c:208:12:spi_flash_cmd_write_multi_tp	24	static
+spansion.c:244:13:spi_flash_cmd_erase_tp	24	static
+spansion.c:279:19:spi_flash_probe_spansion	24	static

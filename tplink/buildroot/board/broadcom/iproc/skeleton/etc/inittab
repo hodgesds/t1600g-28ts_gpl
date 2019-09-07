@@ -1,0 +1,50 @@
+# /etc/inittab
+#
+# Copyright (C) 2001 Erik Andersen <andersen@codepoet.org>
+#
+# Note: BusyBox init doesn't support runlevels.  The runlevels field is
+# completely ignored by BusyBox init. If you want runlevels, use
+# sysvinit.
+#
+# Format for each entry: <id>:<runlevels>:<action>:<process>
+#
+# id        == tty to run on, or empty for /dev/console
+# runlevels == ignored
+# action    == one of sysinit, respawn, askfirst, wait, and once
+# process   == program to run
+
+# Startup the system
+null::sysinit:/bin/mount -t proc proc /proc
+null::sysinit:/bin/mount -o remount,rw / # REMOUNT_ROOTFS_RW
+null::sysinit:/bin/mkdir -p /dev/pts
+null::sysinit:/bin/mkdir -p /dev/shm
+null::sysinit:/bin/mount -a
+null::sysinit:/bin/hostname -F /etc/hostname
+# Try to mount custom file system on NAND
+null::sysinit:/usr/sbin/ubiattach -m 8 -d 1  # Try mtd8 first (spiflash used)
+null::sysinit:/usr/sbin/ubiattach -m 4 -d 1  # Then mtd4 if mtd8 not present
+null::sysinit:/bin/mkdir -p /mnt/custfs
+null::sysinit:/bin/mount -t ubifs /dev/ubi1_0 /mnt/custfs/
+null::sysinit:/bin/mount -t jffs2 /dev/mtdblock4 /mnt/custfs/ 
+# now run any rc scripts
+::sysinit:/etc/init.d/rcS > /dev/nul
+
+## initialize mdev
+::sysinit:/sbin/mdev -s > /dev/nul
+
+## autorun the autorun script in /mnt/custfs
+#::sysinit:/mnt/custfs/autorun  > /dev/nul
+
+# Put a getty on the serial port
+# ttyS0::respawn:/sbin/getty.sh -L ttyS0 115200 vt100 # GENERIC_SERIAL
+
+::sysinit:/etc/start_system.sh > /dev/nul
+
+# Stuff to do for the 3-finger salute
+::ctrlaltdel:/sbin/reboot
+
+# Stuff to do before rebooting
+null::shutdown:/etc/init.d/rcK
+null::shutdown:/bin/umount -a -r
+null::shutdown:/sbin/swapoff -a
+

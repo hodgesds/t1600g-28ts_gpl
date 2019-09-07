@@ -1,0 +1,2 @@
+read_mem.c:29:5:hello_world	40	static
+read_mem.c:116:6:init_timeouts	64	static

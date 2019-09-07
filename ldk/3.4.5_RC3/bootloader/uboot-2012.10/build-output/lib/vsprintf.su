@@ -1,0 +1,14 @@
+vsprintf.c:174:14:put_dec_trunc	16	static
+vsprintf.c:252:23:put_dec	64	static
+vsprintf.c:380:14:0	16	static
+vsprintf.c:285:14:4	128	static
+vsprintf.c:43:15:simple_strtoul	20	static
+vsprintf.c:70:5:strict_strtoul	32	static
+vsprintf.c:94:6:simple_strtol	8	static
+vsprintf.c:101:5:ustrtoul	8	static
+vsprintf.c:124:20:simple_strtoull	56	static
+vsprintf.c:764:5:vsprintf	128	static
+vsprintf.c:769:5:sprintf	12	static
+vsprintf.c:780:6:panic	16	static
+vsprintf.c:797:6:__assert_fail	16	static
+vsprintf.c:805:7:simple_itoa	4	static

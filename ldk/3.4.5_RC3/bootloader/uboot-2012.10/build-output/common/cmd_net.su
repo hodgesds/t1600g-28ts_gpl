@@ -1,0 +1,5 @@
+cmd_net.c:306:5:do_ping	16	static
+cmd_net.c:195:12:netboot_common	64	static
+cmd_net.c:107:5:do_dhcp	0	static
+cmd_net.c:44:5:do_tftpb	0	static
+cmd_net.c:33:5:do_bootp	0	static

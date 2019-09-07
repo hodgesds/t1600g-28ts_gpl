@@ -1,0 +1,6 @@
+stmicro_ns.c:203:12:stmicro_wait_ready	48	static
+stmicro_ns.c:181:12:set_4byte_mode	16	static
+stmicro_ns.c:263:12:stmicro_read_fast	56	static
+stmicro_ns.c:310:12:stmicro_write	72	static
+stmicro_ns.c:400:5:stmicro_erase	56	static
+stmicro_ns.c:489:19:spi_flash_probe_stmicro	24	static

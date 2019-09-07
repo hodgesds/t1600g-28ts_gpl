@@ -1,0 +1,9 @@
+flashAppInner.c:110:12:l_freeFlashInnerItems	16	static
+flashAppInner.c:129:5:flashAppInnerInit_patch	56	static
+flashAppInner.c:203:6:flashAppInnerEnum	0	static
+flashAppInner.c:210:5:flashAppInnerInit	56	static
+flashAppInner.c:307:5:flashAppInnerSet	72	static
+flashAppInner.c:553:5:flashAppInnerUnset	48	static
+flashAppInner.c:709:16:flashAppInnerGet	16	static
+flashAppInner.c:763:5:flashAppInnerGetOffset	24	static
+flashAppInner.c:811:5:flashAppInnerReset	40	static

@@ -1,0 +1,6 @@
+
+config BR2_TPLINK_APP_DEMO
+	bool "L2 app demo"
+	help
+		Enable this option if you want to build demo 
+		

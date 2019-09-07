@@ -1,0 +1,30 @@
+menu "TPLINK"
+
+config BR2_TPLINK_BUILD_SYSTEM
+	bool "TP-LINK Switch Software System"
+	help
+	  Enable this option if you want to build a switch software system for
+	  your embedded device
+	  
+config BR2_TPLINK_PROJECT_NAME
+    string "Project name"
+    default "T1600G_28TS"
+    help
+        Configure the name of project to build.
+		archive dir = src/archive/$(BR2_TPLINK_PROJECT_NAME).
+		use 'make -f $(BR2_TPLINK_PROJECT_NAME).mk' to build sdk.
+		macro -DTPLINK_$(BR2_TPLINK_PROJECT_NAME) will be add to build sdk & adapter.
+		
+config BR2_TPLINK_SOURCE_DIR
+	string "The Source Directory"
+	default "$(TOPDIR)/../src"
+	help
+      Configure the source directory of project      
+      
+config BR2_TPLINK_CFLAGS
+    string "tplink global cflags"
+    default "-DTPLINK_T1600G_28TS"
+    help
+        Configure the global cflags of tplink.   
+
+endmenu

@@ -1,0 +1,3 @@
+date.c:49:6:GregorianDay	96	static
+date.c:85:6:to_tm	12	static
+date.c:139:1:mktime	12	static

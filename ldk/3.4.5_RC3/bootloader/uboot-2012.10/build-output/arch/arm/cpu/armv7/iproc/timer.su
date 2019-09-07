@@ -1,0 +1,9 @@
+timer.c:24:6:iproc_clk_enum	24	static
+timer.c:97:6:glb_tim_init	0	static
+timer.c:107:5:timer_init	8	static
+timer.c:113:15:get_timer	32	static
+timer.c:148:6:__udelay	32	static
+timer.c:202:6:iproc_systick_init	0	static
+timer.c:215:6:systick_isr	0	static
+timer.c:225:20:get_ticks	8	static
+timer.c:235:7:get_tbclk	0	static

@@ -1,0 +1,10 @@
+bcmiproc_phy5461s.c:59:1:phy5461_wr_reg	32	static
+bcmiproc_phy5461s.c:133:1:phy5461_rd_reg	32	static
+bcmiproc_phy5461s.c:206:1:phy5461_mod_reg	40	static
+bcmiproc_phy5461s.c:300:1:phy5461_ge_reset	40	static
+bcmiproc_phy5461s.c:346:1:phy5461_ge_interface_set	32	static
+bcmiproc_phy5461s.c:395:1:phy5461_ge_init	40	static
+bcmiproc_phy5461s.c:427:1:phy5461_reset_setup	48	static
+bcmiproc_phy5461s.c:474:1:phy5461_init	32	static
+bcmiproc_phy5461s.c:506:1:phy5461_link_get	48	static
+bcmiproc_phy5461s.c:670:1:phy5461_speed_get	56	static

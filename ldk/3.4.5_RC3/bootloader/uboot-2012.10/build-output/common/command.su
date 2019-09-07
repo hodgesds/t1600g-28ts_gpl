@@ -1,0 +1,8 @@
+command.c:104:12:find_cmd_tbl	32	static
+command.c:138:12:find_cmd	0	static
+command.c:144:5:cmd_usage	8	static
+command.c:37:5:_do_help	64	dynamic
+command.c:164:5:var_complete	0	static
+command.c:334:5:cmd_auto_complete	408	static
+command.c:424:5:cmd_get_data_size	16	static
+command.c:512:20:cmd_process	24	static

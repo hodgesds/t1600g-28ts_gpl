@@ -1,0 +1,10 @@
+iproc_qspi.c:525:1:bspi_emulate_flash_read	48	static
+iproc_qspi.c:176:1:spi_cs_is_valid	0	static
+iproc_qspi.c:185:1:spi_cs_activate	0	static
+iproc_qspi.c:191:1:spi_cs_deactivate	0	static
+iproc_qspi.c:197:1:spi_init	0	static
+iproc_qspi.c:203:1:spi_setup_slave	32	static
+iproc_qspi.c:301:1:spi_free_slave	0	static
+iproc_qspi.c:375:1:spi_claim_bus	4	static
+iproc_qspi.c:397:1:spi_release_bus	16	static
+iproc_qspi.c:729:1:spi_xfer	56	static

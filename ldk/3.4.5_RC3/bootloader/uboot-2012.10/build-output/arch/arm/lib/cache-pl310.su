@@ -1,0 +1,6 @@
+cache-pl310.c:58:6:v7_outer_cache_inval_all	0	static
+cache-pl310.c:63:6:v7_outer_cache_flush_all	0	static
+cache-pl310.c:69:6:v7_outer_cache_flush_range	0	static
+cache-pl310.c:87:6:v7_outer_cache_inval_range	16	static
+cache-pl310.c:120:6:v7_outer_cache_disable	0	static
+cache-pl310.c:126:6:v7_outer_cache_enable	0	static

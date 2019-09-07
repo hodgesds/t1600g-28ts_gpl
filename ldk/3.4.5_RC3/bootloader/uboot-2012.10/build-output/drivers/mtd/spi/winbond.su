@@ -1,0 +1,4 @@
+winbond.c:140:13:spi_flash_cmd_read_tp	64	static
+winbond.c:215:13:spi_flash_cmd_erase_tp	64	static
+winbond.c:179:12:spi_flash_cmd_write_multi_tp	64	static
+winbond.c:250:19:spi_flash_probe_winbond	24	static

@@ -1,0 +1,16 @@
+cmd_load.c:620:13:bin_data_init	0	static
+cmd_load.c:966:14:load_serial_ymodem	1096	static
+cmd_load.c:961:12:getcxmodem	8	static
+cmd_load.c:638:13:bin_data_char	0	static
+cmd_load.c:549:6:send_pad	16	static
+cmd_load.c:558:6:ktrans	0	static
+cmd_load.c:568:5:chk1	0	static
+cmd_load.c:578:6:s1_sendpacket	8	static
+cmd_load.c:587:6:send_ack	24	static
+cmd_load.c:600:6:send_nack	24	static
+cmd_load.c:657:6:k_data_init	8	static
+cmd_load.c:663:6:k_data_save	0	static
+cmd_load.c:669:6:k_data_restore	0	static
+cmd_load.c:675:6:k_data_char	16	static
+cmd_load.c:698:6:handle_send_packet	32	static
+cmd_load.c:436:5:do_load_serial_bin	88	static

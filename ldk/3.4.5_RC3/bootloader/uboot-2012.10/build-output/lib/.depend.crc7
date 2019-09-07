@@ -1,0 +1,9 @@
+/project/trunk/t1600g-52ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/lib/crc7.o: \
+ crc7.c \
+ /project/trunk/t1600g-52ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/linux/types.h \
+ /project/trunk/t1600g-52ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/linux/config.h \
+ /project/trunk/t1600g-52ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/linux/posix_types.h \
+ /project/trunk/t1600g-52ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/linux/stddef.h \
+ /project/trunk/t1600g-52ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/include2/asm/posix_types.h \
+ /project/trunk/t1600g-52ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/include2/asm/types.h \
+ /project/trunk/t1600g-52ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/linux/crc7.h

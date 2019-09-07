@@ -1,0 +1,8 @@
+cmd_bootm.c:1392:12:do_bootm_rtems	8	static
+cmd_bootm.c:1281:12:do_bootm_netbsd	48	static
+cmd_bootm.c:317:12:10	32	static
+cmd_bootm.c:193:12:9	40	static
+cmd_bootm.c:164:6:__arch_preboot_os	0	static
+cmd_bootm.c:477:5:do_bootm_subcommand	72	static
+cmd_bootm.c:586:5:do_bootm	96	static
+cmd_bootm.c:718:5:bootm_maybe_autostart	32	static

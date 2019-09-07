@@ -1,0 +1,336 @@
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/env_embedded.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/common/env_embedded.c \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/config.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/environment.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h /usr/include/search.h
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/image.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/common/image.c \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/mkimage.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/os_support.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h /usr/include/sys/stat.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/sha1.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/fdt_host.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/libfdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/libfdt_env.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/compiler.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt_support.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/u-boot/md5.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/image.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/libfdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/fdt_support.h
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/crc32.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/crc32.c \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/u-boot/crc.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/u-boot/zlib.h
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/md5.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/md5.c \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/u-boot/md5.h
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/sha1.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/sha1.c \
+ /usr/include/string.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/xlocale.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/watchdog.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/sha1.h
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/envcrc.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/envcrc.c \
+ /usr/include/errno.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdio.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/types.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/config.h
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/gen_eth_addr.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/gen_eth_addr.c \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/xlocale.h
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/fdt.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/libfdt/fdt.c \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/libfdt_env.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/fdt_host.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/libfdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt_support.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/libfdt/libfdt_internal.h
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/fdt_ro.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/libfdt/fdt_ro.c \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/libfdt_env.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/fdt_host.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/libfdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt_support.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/libfdt/libfdt_internal.h
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/fdt_rw.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/libfdt/fdt_rw.c \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/libfdt_env.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/fdt_host.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/libfdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt_support.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/libfdt/libfdt_internal.h
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/fdt_strerror.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/libfdt/fdt_strerror.c \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/libfdt_env.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/fdt_host.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/libfdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt_support.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/libfdt/libfdt_internal.h
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/tools/fdt_wip.o: \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/libfdt/fdt_wip.c \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/libfdt_env.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/compiler.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/fdt_host.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/libfdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/fdt.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/tools/../include/fdt_support.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/lib/libfdt/libfdt_internal.h

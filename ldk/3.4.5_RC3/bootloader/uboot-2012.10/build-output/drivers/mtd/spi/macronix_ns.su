@@ -1,0 +1,6 @@
+macronix_ns.c:165:12:macronix_wait_ready	40	static
+macronix_ns.c:143:12:set_4byte_mode	16	static
+macronix_ns.c:199:12:macronix_read_fast	56	static
+macronix_ns.c:246:12:macronix_write	72	static
+macronix_ns.c:336:5:macronix_erase	64	static
+macronix_ns.c:425:19:spi_flash_probe_macronix	24	static

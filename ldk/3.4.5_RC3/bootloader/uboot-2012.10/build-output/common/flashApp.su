@@ -1,0 +1,13 @@
+flashApp.c:104:7:flashAppInit	312	static
+flashApp.c:209:5:flashGetBootSize	8	static
+flashApp.c:228:5:flashGetKernelOffset	8	static
+flashApp.c:247:5:flashGetKernelSize	8	static
+flashApp.c:270:5:flashGetUsrImgOffset	16	static
+flashApp.c:291:5:flashGetUsrImgSize	16	static
+flashApp.c:316:5:flashGetUsrAppOffset	8	static
+flashApp.c:335:5:flashGetUsrAppSize	8	static
+flashApp.c:358:5:flashGetFlVer	8	static
+flashApp.c:379:6:flashGetDftGevFsSize	8	static
+flashApp.c:419:8:writeFlash	0	static
+flashApp.c:425:8:readFlash	0	static
+flashApp.c:431:8:writeBootrom	8	static

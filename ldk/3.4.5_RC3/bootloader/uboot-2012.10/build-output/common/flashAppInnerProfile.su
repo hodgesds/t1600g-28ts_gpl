@@ -1,0 +1,4 @@
+flashAppInnerProfile.c:376:11:_getProfileItem	32	static
+flashAppInnerProfile.c:477:5:sysGetMacFromFlash	16	static
+flashAppInnerProfile.c:537:8:sysGetProductId	8	static
+flashAppInnerProfile.c:756:8:sysFirmwareCheckProduct	24	static

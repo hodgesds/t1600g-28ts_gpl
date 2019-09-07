@@ -1,0 +1,16 @@
+board.c:145:12:display_banner	0	static
+board.c:247:5:__arch_cpu_init	0	static
+board.c:129:12:init_baudrate	8	static
+board.c:96:13:__coloured_LED_init	0	static
+board.c:99:13:__red_led_on	0	static
+board.c:101:13:__red_led_off	0	static
+board.c:103:13:__green_led_on	0	static
+board.c:105:13:__green_led_off	0	static
+board.c:107:13:__yellow_led_on	0	static
+board.c:109:13:__yellow_led_off	0	static
+board.c:111:13:__blue_led_on	0	static
+board.c:113:13:__blue_led_off	0	static
+board.c:239:6:__dram_init_banksize	0	static
+board.c:715:6:board_init_r	8	static
+board.c:954:6:hang	8	static
+board.c:309:6:board_init_f	8	static

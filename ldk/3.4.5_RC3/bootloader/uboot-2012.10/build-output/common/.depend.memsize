@@ -1,0 +1,11 @@
+/project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/common/memsize.o: \
+ memsize.c \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/include/config.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/config_cmd_defaults.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/config_defaults.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/configs/hurricane2.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/include2/asm/sizes.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/configs/iproc_common_configs.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/build-output/include2/asm/config.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/config_fallbacks.h \
+ /project/trunk/t1600g-28ts_gpl/ldk/3.4.5_RC3/bootloader/uboot-2012.10/include/config_uncmd_spl.h

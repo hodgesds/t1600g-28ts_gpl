@@ -1,0 +1,8 @@
+bcmiproc_serdes.c:59:1:serdes_set_blk	24	static
+bcmiproc_serdes.c:84:1:serdes_wr_reg	32	static
+bcmiproc_serdes.c:108:1:serdes_rd_reg	16	static
+bcmiproc_serdes.c:137:1:serdes_get_id	0	static
+bcmiproc_serdes.c:148:1:serdes_reset	16	static
+bcmiproc_serdes.c:169:1:serdes_reset_core	16	static
+bcmiproc_serdes.c:224:1:serdes_start_pll	16	static
+bcmiproc_serdes.c:266:1:serdes_init	16	static

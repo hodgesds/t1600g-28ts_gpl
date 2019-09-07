@@ -1,0 +1,3 @@
+# Aliases extracted from modules themselves.
+alias aes aes_generic
+alias stdrng ansi_cprng

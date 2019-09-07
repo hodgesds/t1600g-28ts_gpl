@@ -1,0 +1,4 @@
+flash.c:45:1:flash_protect	40	static
+flash.c:105:1:addr2info	0	static
+flash.c:142:1:flash_write	48	static
+flash.c:195:6:flash_perror	0	static

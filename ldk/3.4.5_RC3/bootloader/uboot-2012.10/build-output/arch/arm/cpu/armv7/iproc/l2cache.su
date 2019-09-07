@@ -1,0 +1,7 @@
+l2cache.c:21:6:scu_disable	0	static
+l2cache.c:27:6:scu_enable	0	static
+l2cache.c:37:6:l2cc_init	0	static
+l2cache.c:51:6:l2cc_invalidate	0	static
+l2cache.c:59:6:l2cc_unlock	0	static
+l2cache.c:68:5:l2cc_enable	8	static
+l2cache.c:100:5:l2cc_disable	8	static

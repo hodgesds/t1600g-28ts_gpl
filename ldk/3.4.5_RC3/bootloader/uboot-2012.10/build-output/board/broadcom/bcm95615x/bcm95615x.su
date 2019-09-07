@@ -1,0 +1,8 @@
+bcm95615x.c:37:6:init_timeouts	64	static
+bcm95615x.c:67:6:init_axitrace	0	static
+bcm95615x.c:80:5:board_init	0	static
+bcm95615x.c:91:5:misc_init_r	0	static
+bcm95615x.c:99:5:dram_init	8	static
+bcm95615x.c:119:5:board_early_init_f	8	static
+bcm95615x.c:161:5:board_late_init	8	static
+bcm95615x.c:191:5:board_eth_init	0	static

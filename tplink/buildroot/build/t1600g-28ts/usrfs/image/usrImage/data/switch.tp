@@ -1,0 +1,548 @@
+#TL-SG3424机型配置参数
+
+###########CLI SERVER模块参数###########
+ACCEPT_TELNET_DIRECTLY=0x3
+INCLUDE_TELNET=0x3
+##########PORT ISOLATION模块参数##########
+INCLUDE_PORT_ISOLATION=1
+
+########TPCL配置###########
+
+INCLUDE_TPCL_DEBUG=0x2
+INCLUDE_SDM=0x2
+
+
+<!--TPCL-->
+include_tpcl=1
+template_count=2
+app_count=17
+
+			
+<template>
+template_0_name=default
+
+<!--arp interface-->
+app_0_0_slice=4
+app_0_0_num=16
+app_0_0_max=16				
+				
+<!--arp defend-->
+app_0_1_slice=4
+app_0_1_num=256
+app_0_1_max=256
+				
+<!--user filter-->
+app_0_2_slice=3
+app_0_2_num=12
+app_0_2_max=12
+				
+<!--cpu defend-->
+app_0_3_slice=3
+app_0_3_num=50
+app_0_3_max=50
+				
+<!--ip filter-->
+app_0_4_slice=3
+app_0_4_num=0
+app_0_4_max=0
+				
+<!--mac acl-->
+app_0_5_slice=1
+app_0_5_num=100
+app_0_5_max=100
+				
+<!--voice vlan-->
+app_0_6_slice=1
+app_0_6_num=17
+app_0_6_max=17
+				
+<!--loopback-->
+app_0_7_slice=1
+app_0_7_num=1
+app_0_7_max=1
+				
+<!--ip acl-->
+app_0_8_slice=0
+app_0_8_num=200
+app_0_8_max=200
+				
+<!--dos defend-->
+app_0_9_slice=0
+app_0_9_num=8
+app_0_9_max=8
+
+<!--cpu defend egress-->
+app_0_10_slice=3
+app_0_10_num=0
+app_0_10_max=0
+				
+<!--ip filter vcap-->
+app_0_11_slice=0
+app_0_11_num=0
+app_0_11_max=0				
+				
+<!-- arp to cpu-->
+app_0_12_slice=4
+app_0_12_num=1
+app_0_12_max=1
+					
+<!--Route Map vcap-->
+app_0_13_slice=3
+app_0_13_num=0
+app_0_13_max=0
+				
+<!--Route-->
+app_0_14_slice=3
+app_0_14_num=0
+app_0_14_max=0
+				
+<!--LOOPBACKDETECTION-->
+app_0_15_slice=3
+app_0_15_num=2
+app_0_15_max=2
+				
+<!--ip6-->
+app_0_16_slice=2
+app_0_16_num=64
+app_0_16_max=64
+				
+<!--public-->
+app_0_17_slice=2
+app_0_17_num=0
+app_0_17_max=0
+				
+</template>
+			
+<template>
+template_1_name=access
+
+<!--arp interface-->
+app_1_0_slice=4
+app_1_0_num=16
+app_1_0_max=16				
+				
+<!--arp defend-->
+app_1_1_slice=4
+app_1_1_num=63
+app_1_1_max=63
+				
+<!--user filter-->
+app_1_2_slice=3
+app_1_2_num=12
+app_1_2_max=12
+				
+<!--cpu defend-->
+app_1_3_slice=3
+app_1_3_num=50
+app_1_3_max=50
+				
+<!--ip filter-->
+app_1_4_slice=3
+app_1_4_num=0
+app_1_4_max=0
+				
+<!--mac acl-->
+app_1_5_slice=1
+app_1_5_num=238
+app_1_5_max=238
+				
+<!--voice vlan-->
+app_1_6_slice=1
+app_1_6_num=17
+app_1_6_max=17
+				
+<!--loopback-->
+app_1_7_slice=1
+app_1_7_num=1
+app_1_7_max=1
+				
+<!--ip acl-->
+app_1_8_slice=0
+app_1_8_num=368
+app_1_8_max=368
+				
+<!--dos defend-->
+app_1_9_slice=0
+app_1_9_num=8
+app_1_9_max=8
+
+<!--cpu defend egress-->
+app_1_10_slice=3
+app_1_10_num=0
+app_1_10_max=0
+				
+<!--ip filter vcap-->
+app_1_11_slice=0
+app_1_11_num=0
+app_1_11_max=0				
+				
+<!-- arp to cpu vcap-->
+app_1_12_slice=4
+app_1_12_num=1
+app_1_12_max=1
+					
+<!--Route Map vcap-->
+app_1_13_slice=3
+app_1_13_num=0
+app_1_13_max=0
+				
+<!--Route-->
+app_1_14_slice=3
+app_1_14_num=0
+app_1_14_max=0
+				
+<!--LOOPBACKDETECTION-->
+app_1_15_slice=3
+app_1_15_num=2
+app_1_15_max=2
+				
+<!--ip6-->
+app_1_16_slice=2
+app_1_16_num=64
+app_1_16_max=64
+				
+<!--public-->
+app_1_17_slice=2
+app_1_17_num=0
+app_1_17_max=0
+				
+</template>
+
+</TPCL-->
+
+
+##########TRUNK模块参数##########
+
+#可建立的最大trunk组数目
+MAX_TRUNK_NUMBER=14
+MAX_CHANNEL_GROUP_NUMBER=14
+MAX_CHANNEL_GROUP_LAG_PORTS=8
+
+#########FDB模块参数############
+#FDB功能开关和版本号
+INCLUDE_FDB=0x5
+
+##########IGMP模块参数##########
+
+#igmp功能开关
+INCLUDE_IGMP_SNOOPING=0x3
+#组播profile最大条目数
+IGMP_FILTER_NUM=256
+#最大组播组数目
+IP_MULTICAST_GROUP_NUM=1000
+
+##########VLAN模块参数##########
+#harrier 1
+#hawkeye 2
+#xCat 3
+#ponCat 4
+
+#VLAN模块机型配置参数
+SMART_SWITCH_VLAN=0x01
+#802.1Q VLAN最大条目数
+MAX_VLAN_ENTRY_SIZE=4094
+
+#GVRP功能开关
+INCLUDE_GVRP=0x20
+
+#MAC VLAN功能开关
+INCLUDE_MAC_VLAN=0x21
+#MAC VLAN最大条目数
+MAX_MAC_VLAN_NUMBER=24
+
+#协议VLAN功能开关
+INCLUDE_PRTCL_VLAN=0x21
+#协议模板最大条目数
+MAX_PRTCL_TEMPLET_NUMBER=16
+#协议VLAN组最大条目数
+MAX_PRTCL_GROUP_NUMBER=16
+
+#VLAN-VPN功能开关
+INCLUDE_VLAN_VPN=0x20
+#VLAN映射条目数
+MAX_VLAN_XLAT_NUMBER=256
+MAX_VLAN_MAP_NUMBER=16
+
+#Voice VLAN功能开关
+INCLUDE_VOICE_VLAN=0x21
+#OUI最大条目数
+MAX_OUI_NUMBER=16
+
+#VLAN PRIVATE功能开关
+INCLUDE_PRIVATE_VLAN=0x20
+
+#Management VLAN功能开关
+INCLUDE_MANAGEMENT_VLAN=0x1
+##########ARP模块参数##########
+
+#ARP防护功能开关
+INCLUDE_ARP_DEFEND=0x3
+#ARP防护最大条目数
+ARP_DEFNED_NUMBER=200
+
+#IP过滤功能开关
+INCLUDE_IP_FILTER=0x0
+#IP过滤最大条目数
+IP_FILTER_NUMBER=312
+
+##########802.1X模块参数##########
+
+#802.1x功能开关
+INCLUDE_AUTH_8021X=0x3
+
+DEFAULT_LOGIN_USERNAME=admin
+DEFAULT_LOGIN_PWD=admin
+DEFAULT_GUEST_USERNAME=guest
+DEFAULT_GUEST_PWD=guest
+TIMER_TASK_STACK_SIZE=8192
+SYS_UPGRADE_TIME=40
+SYS_REBOOT_TIME=30000
+DEFAULT_IP=192.168.0.1
+DEFAULT_MASK=255.255.255.0
+DEFAULT_GATEWAY=0.0.0.0
+
+#Define globle configrations of harreir family
+COMPANY_NAME=TP-LINK TECHNOLOGIES CO., LTD.
+DEV_MODEL_NAME=T1600G-28TS
+DEV_MODEL_LOCATION=SHENZHEN
+SYS_CONTACT=www.tp-link.com
+SYS_BOARD_TYPE=11
+CHIP_SET_NUMBER=1
+SYS_RESET_BUTTON=1
+
+##########端口模块参数##########
+#MAC芯片数目
+BOARD_DEV_NUMBER=1
+#端口数目
+ALL_PORT_NUMBER=28
+#ge口数目
+PORT_1000M_NUMBER=28
+#SFP口数目
+SFP_PORT_NUMBER=4
+#combo口数目
+COMBO_PORT_NUMBER=0
+#copper口起始端口
+COPPER_PORT_BEGIN_NUMBER=1
+#SFP口起始端口
+SFP_PORT_BEGIN_NUMBER=25
+#Combo口起始端口
+COMBO_PORT_BEGIN_NUMBER=0
+#最大可被监控端口数目
+MAX_MIRRORED_PORT_NUMBER=27
+CHIP_ID_OF_CPU_PORT=0
+#多组监控功能开关
+INCLUDE_MULTIMIRROR=0
+#combo口所属平台信息
+COMBO_PLATFORM_INFO=0
+#监控组数
+MIRROR_GROUP_NUMBER=1
+
+##########地址表模块参数##########
+
+#支持的最大静态MAC地址数
+STATIC_MAC_NUMBER=128
+#端口安全支持的最大MAC学习数
+SECURITY_MAC_NUMBER=64
+#支持的最大过滤MAC地址数
+FILTER_MAC_NUMBER=128
+#支持的最大动态MAC地址数
+DYNAMIC_MAC_NUMBER=16384
+Fdb_Total_Number=16384
+FDB_MIN_AGING_TIME=10
+FDB_MAX_AGING_TIME=630
+FDB_DFT_AGING_TIME=300
+
+##########ACL模块参数##########
+INCLUDE_ACL=0x5
+#0 for harrier
+#1 for hawkeye
+#3 for 2 serial
+ACL_FIELD_DECISION=3
+
+TIME_SEGMENT_HOLIDAY_NUMBER=0
+TIME_SEGMENT_PRE_NUMBER=0
+TIME_SEGMENT_SLICE_NUMBER=0
+ACL_CONFIG_NUMBER=300
+ACL_POLICY_NUMBER=300
+ACL_ACTION_NUMBER=300
+ACL_ACTION_BIND_NUMBER=300
+ACL_MAC_RULE_NUMBER=300
+ACL_STDIP_RULE_NUMBER=300
+ACL_EXTIP_RULE_NUMBER=300
+###300 * 28###
+ACL_POLICY_BIND_NUMBER=2000
+ACL_ACL_BIND_NUMBER=2000
+
+###########SNMP模块参数###########
+
+#SNMP功能开关
+INCLUDE_SNMP=0x3
+INCLUDE_SNMP_V1_V2=1
+INCLUDE_SNMP_IPV6=1
+#SNMP私有库企业号
+SNMP_ENTERPRISE_ID=11863
+#SNMP私有库交换机产品线号
+SNMP_PRODUCT_DEPARTMENT_ID=1
+#SNMP私有库交换机产品层次 二层:1 三层:2
+SNMP_PRODUCT_LINE_ID=1
+#SNMP私有库交换机产品型号 TL-SL5428:1 TL-SL3428:2 TL-SG5428:3
+SNMP_PRODUCT_ID=28
+
+
+#集群管理功能开关
+INCLUDE_CLUSTER=0
+INCLUDE_COMMANDER=0
+
+###########PING模块参数###########
+
+#PING功能开关
+INCLUDE_PING=0x3
+
+###########TRACERT模块参数###########
+
+#TRACERT功能开关
+INCLUDE_TRACERT=0x3
+
+###########SNTP模块参数###########
+
+#SNTP功能开关
+INCLUDE_SNTP=0x3
+
+###########LACP模块参数###########
+INCLUDE_LACP=0x3
+
+###########DHCPC模块参数###########
+INCLUDE_DHCPC=0x3
+
+###########BOOTPC模块参数###########
+INCLUDE_BOOTPC=0x3
+
+##########DoS Defend模块参数##########
+
+#Dos防护开关
+INCLUDE_DOS_DEFEND=0x5
+
+DOS_DEFEND_NUMBER=9
+DOS_DEFEND_LAND_ATTACK=1
+DOS_DEFEND_SCAN_SYNFIN=1
+DOS_DEFEND_XMASCAN=1
+DOS_DEFEND_NULL_SCAN=1
+DOS_DEFEND_SYN_SOURCE_PORT=1
+DOS_DEFEND_BLAT_ATTACK=1
+DOS_DEFEND_PING_FLOODING=1
+DOS_DEFEND_SYN_ACK_FLOODING=1
+DOS_DEFEND_WIN_NUKE=1
+
+##########CPU Defend################
+
+#CPU防护开关
+INCLUDE_CPU_DEFEND=0x5
+
+###########VCT模块参数###########
+
+#VCT功能开关
+INCLUDE_VCT=3
+
+###########LOOPBACK模块参数###########
+#########全部裁掉Loopback功能#########
+#LOOPBACK 功能开关
+INCLUDE_LOOPBACK=0
+
+###########LOOPBACKDETECTION模块参数###########
+#LOOPBACKDETECTION 功能开关
+INCLUDE_LOOPBACKDETECTION=1
+
+###########MSTP模块参数###########
+
+#MSTP功能
+INCLUDE_MSTP=3
+
+###########四元表模块参数###########
+
+#四元表相关功能
+INCLUDE_QTABLE=3
+INCLUDE_DHCPSNOOP=0x3
+INCLUDE_DHCPFILTER=0x0
+INCLUDE_ARPSCAN=3
+#四元表条目数
+QTABLE_SIZE=201
+
+###########system monitor模块参数###########
+
+#system monitor功能开关
+INCLUDE_SYSMONITER=0x3
+
+###########芯片参数###########
+PORT_QUEUE_NUMBER=8
+
+###########syslog模块###########
+INCLUDE_LOG=0x3
+INCLUDE_LOG_SRV=0x3
+INCLUDE_LOG_CONSOLE=0x0
+
+###########LLDP模块参数###########
+INCLUDE_LLDP=0
+
+###########DLDP模块############
+INCLUDE_DLDP=0x0
+
+###########NETIF模块############
+NETIF_MAX_IP_ADDR_NUM=16
+NETIF_MAX_INTERFACE_NUM=511
+
+###########系统管理模块###########
+
+SYS_DESCRIPTION=JetStream 24-Port Gigabit Smart Switch with 4 SFP Slots
+##0中文1英文##
+WEB_LANGUAGE_TYPE=1
+END_UINT_STR_VAL=et1
+DEFAULT_SESSION_TIME=10
+#支持用户数
+USER_NUM=16
+INCLUDE_HTTP_CFG=0x3
+
+#############QoS模块#################
+INCLUDE_QOS=0x5
+
+#########IPv6#################
+INCLUDE_IPV6=0x11
+IPV6_MAX_GLOBAL_ADDR_NUM=5
+
+#########MLD Snooping#################
+INCLUDE_MLD_SNOOP=0x11
+
+############ L3 Module Setting ##################
+
+######### Static ARP ##################
+INCLUDE_STATIC_ARP=1
+STATIC_ARP_MAX=512
+
+######### Static Route ##################
+INCLUDE_STATIC_ROUTE=1
+STATIC_ROUTE_MAX=32
+
+######### Routing ##################
+INCLUDE_ROUTE=3
+INCLUDE_ROUTE_DEBUG=3
+ROUTE_HOST_MAX=512
+ROUTE_SUBNET_MAX=64
+ROUTE_ECMP_MAX=1
+ROUTE_DETECT_INTERVAL=10
+ROUTE_WAIT_MAX=9
+
+#############FLASH数字签名##########
+INCLUDE_FLASH_SIGN=0x0
+
+#############CLI模块################
+INCLUDE_CLI=0x3
+
+#############SSH模块################
+INCLUDE_SSH=0x3
+
+#############SSL模块################
+INCLUDE_SSL=0x3
+
+###硬件版本号
+HARD_VERSION=0x55aa0100
+###软件版本号
+SOFT_VERSION=0x010000

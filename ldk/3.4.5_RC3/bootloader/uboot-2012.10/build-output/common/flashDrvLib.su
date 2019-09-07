@@ -1,0 +1,12 @@
+flashDrvLib.c:72:5:flashProbe	264	static
+flashDrvLib.c:82:5:flashDrvLibInit	8	static
+flashDrvLib.c:93:5:flashGetSectorCount	0	static
+flashDrvLib.c:98:5:flashGetSectorSize	0	static
+flashDrvLib.c:103:5:flashDiagnostic	0	static
+flashDrvLib.c:109:5:flashEraseBank	280	static
+flashDrvLib.c:140:5:flashErase	272	static
+flashDrvLib.c:179:5:flashBlkWrite	288	static
+flashDrvLib.c:214:5:flashBlkRead	288	static
+flashDrvLib.c:246:5:flashSyncFilesystem	0	static
+flashDrvLib.c:251:5:flashProtectOn	264	static
+flashDrvLib.c:266:5:flashProtectOff	264	static

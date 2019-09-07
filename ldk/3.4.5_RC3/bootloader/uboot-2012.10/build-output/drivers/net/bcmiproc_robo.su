@@ -1,0 +1,8 @@
+bcmiproc_robo.c:238:1:srab_interface_reset	8	static
+bcmiproc_robo.c:271:1:srab_wreg	24	static
+bcmiproc_robo.c:356:1:srab_rreg	16	static
+bcmiproc_robo.c:516:1:bcm_robo_attach	32	static
+bcmiproc_robo.c:579:1:bcm_robo_detach	0	static
+bcmiproc_robo.c:588:1:bcm_robo_enable_device	0	static
+bcmiproc_robo.c:623:1:bcm_robo_config_vlan	104	static
+bcmiproc_robo.c:812:1:bcm_robo_enable_switch	40	static

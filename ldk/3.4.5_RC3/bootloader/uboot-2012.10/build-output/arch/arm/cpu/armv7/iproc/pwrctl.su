@@ -1,0 +1,2 @@
+pwrctl.c:38:6:ihost_pwrdown_neon	0	static
+pwrctl.c:84:6:ihost_pwrdown_cpu	8	static
